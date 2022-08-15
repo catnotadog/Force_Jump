@@ -26,7 +26,7 @@ namespace Jump
 
             var toinstjumpmod = GameObject.Find("/UserInterface").transform.Find("Canvas_QuickMenu(Clone)/Container/Window/Wing_Right/Container/InnerContainer/WingMenu/ScrollRect/Viewport/VerticalLayoutGroup/Button_Emotes");
             var instjumpmod = GameObject.Instantiate(toinst, toinst.parent).gameObject;
-            instjumpmod.name = "Button jump"
+            instjumpmod.name = "Button jump";
             var txtjumpmod = instjumpmod.transform.Find("Container/Text_QM_H3").GetComponent<TMPro.TextMeshProUGUI>();
             txtjumpmod.richText = true;
             txtjumpmod.text = $"<color=#000080ff>Jump</color>";
