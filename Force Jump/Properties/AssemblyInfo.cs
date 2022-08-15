@@ -13,7 +13,7 @@ using MelonLoader;
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: MelonInfo(typeof(Jump.Main), "Force Jump", "1.0", "Cyril XD")]
+[assembly: MelonInfo(typeof(Jump.Main), "Force Jump", "1.1", "Cyril XD")]
 [assembly: MelonGame("VRChat", "VRChat")]
 [assembly: MelonColor(System.ConsoleColor.DarkRed)]
 
